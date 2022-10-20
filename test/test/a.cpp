@@ -1,17 +1,19 @@
 #define _CRT_SECURE_NO_WARNINGS 1
-# include <stdio.h>
+#include <stdio.h>
+int sum(int a)
+{
+    int c = 0;
+    static int b = 3;
+    c += 1;
+    b += 2;
+    return (a + b + c);
+}
 int main()
 {
-	int f1 = 1, f2 = 1, i = 3, f;
-	printf("%10d %10d", f1, f2);
-	for (; i <= 20; i++)
-	{
-		f = f1 + f2;
-		f1 = f2;
-		f2 = f;
-		printf("%10d", f);
-		if (i % 5 == 0)
-			printf("\n");
-	}
-	return 0;
+    int i;
+    int a = 2;
+    for (i = 0; i < 5; i++)
+    {
+        printf("%d,", sum(a));
+    }
 }
