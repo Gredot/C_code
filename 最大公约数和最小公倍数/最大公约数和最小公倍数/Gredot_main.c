@@ -16,7 +16,7 @@ int get_gcd(int x,int y)
 		x = y;
 		y = temp;
 	}
-	return x; // 最后一次计算完余数为零后将除数y的值赋给x  所有返回值为x
+	return x; // 最后一次计算完余数为零后将除数y的值赋给x  所以返回值为x
 }
 
 int main ()
