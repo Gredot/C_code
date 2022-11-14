@@ -1,23 +1,24 @@
-ï»¿#define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 #include<windows.h>
 #include<math.h>
+
 void Initmenu(void)
 {
 	printf("                                                  \n");
 	printf("                                                  \n");
 	printf("          |------------------------------------------|\n");
-	printf("          | è®¡ç®—å™¨                         â€”  â–¡  X |\n");
+	printf("          | ¼ÆËãÆ÷                         ¡ª  ¡õ  X |\n");
 	printf("          |------------------------------------------|\n");
 	printf("          |                                          |\n");
 	printf("          |                                          |\n");
 	printf("          |                                          |\n");
 	printf("          |------------------------------------------|\n");
-	printf("          |    %%     |  CE     |    C     |    X     |\n");
+	printf("          |    %%     |   CE     |    C    |     X    |\n");
 	printf("          |------------------------------------------|\n");
-	printf("          |  1/x(2)  |   x!     |  âˆšx(1)   |  Ã·    |\n");
+	printf("          |  1/x(2)  |   x!     |  ¡Ìx(1)  |   ¡Â    |\n");
 	printf("          |------------------------------------------|\n");
-	printf("          |    7     |    8     |    9     |    Ã—   |\n");
+	printf("          |    7     |    8     |    9     |    ¡Á   |\n");
 	printf("          |------------------------------------------|\n");
 	printf("          |    4     |    5     |    6     |    -    |\n");
 	printf("          |------------------------------------------|\n");
@@ -28,22 +29,23 @@ void Initmenu(void)
 	printf("                                                  \n");
 	printf("                                                  \n");
 }
+
 void DdobleResultmenu(double x,char ch,double y,double result )
 {
 	printf("                                                  \n");
 	printf("                                                  \n");
 	printf("          |------------------------------------------|\n");
-	printf("          | è®¡ç®—å™¨                         â€”  â–¡  X |\n");
+	printf("          | ¼ÆËãÆ÷                         ¡ª  ¡õ  X |\n");
 	printf("          |------------------------------------------|\n");
 	printf("          |                                          |\n");
 	printf("          |%lf%c%lf=%lf    \n",x,ch,y,result);
 	printf("          |                                          |\n");
 	printf("          |------------------------------------------|\n");
-	printf("          |    %%     |  CE     |    C     |    X     |\n");
+	printf("          |    %%     |    CE    |    C     |    X    |\n");
 	printf("          |------------------------------------------|\n");
-	printf("          |  1/x(2)  |   x!     |  âˆšx(âˆš)   |   Ã·  |\n");
+	printf("          |  1/x(2)  |   x!     |  ¡Ìx(¡Ì) |   ¡Â    |\n");
 	printf("          |------------------------------------------|\n");
-	printf("          |    7     |    8     |    9     |    Ã—   |\n");
+	printf("          |    7     |    8     |    9     |    ¡Á   |\n");
 	printf("          |------------------------------------------|\n");
 	printf("          |    4     |    5     |    6     |    -    |\n");
 	printf("          |------------------------------------------|\n");
@@ -60,7 +62,7 @@ void SingleResultmenu(double x, char ch,double result)
 	printf("                                                      \n");
 	printf("                                                      \n");
 	printf("          |------------------------------------------|\n");
-	printf("          | è®¡ç®—å™¨                         â€”  â–¡  X |\n");
+	printf("          | ¼ÆËãÆ÷                         ¡ª  ¡õ  X |\n");
 	printf("          |------------------------------------------|\n");
 	printf("          |                                          |\n");
 	printf("          |%lf %c = %lf                     \n", x, ch,result);
@@ -68,9 +70,9 @@ void SingleResultmenu(double x, char ch,double result)
 	printf("          |------------------------------------------|\n");
 	printf("          |    %%     |  CE      |    C     |    X    |\n");
 	printf("          |------------------------------------------|\n");
-	printf("          |  1/x(2)  |   x!      |  âˆšx(âˆš)   |   Ã· |\n");
+	printf("          |  1/x(2)  |   x!     | ¡Ìx(¡Ì)  |   ¡Â    |\n");
 	printf("          |------------------------------------------|\n");
-	printf("          |    7     |    8     |    9     |    Ã—   |\n");
+	printf("          |    7     |    8     |    9     |    ¡Á   |\n");
 	printf("          |------------------------------------------|\n");
 	printf("          |    4     |    5     |    6     |    -    |\n");
 	printf("          |------------------------------------------|\n");
@@ -81,6 +83,7 @@ void SingleResultmenu(double x, char ch,double result)
 	printf("                                                      \n");
 	printf("                                                      \n");
 }
+
 size_t fac(int x)
 {
 	if (x == 0)
@@ -88,6 +91,7 @@ size_t fac(int x)
 	else
 		return (x * fac(x - 1));
 }
+
 double Sum(double x, double y)
 {
 	return (x + y);
@@ -97,10 +101,12 @@ double Sub(double x, double y)
 {
 	return (x - y);
 }
+
 double Mul(double x, double y)
 {
 	return (x * y);
 }
+
 double Div(double x, double y)
 {
 	return (x / y);
@@ -111,7 +117,6 @@ double Sur(double x, double y)
 	return (double)((int)(x) % (int)(y));
 }
 
-
 int main ()
 {
 	Initmenu();
@@ -121,14 +126,14 @@ int main ()
 	while (i)
 	{
 		int in;
-		printf("è¯·è¾“å…¥æ“ä½œæ•°ä¸ªæ•°:>(1/2)\n");
+		printf("ÇëÊäÈë²Ù×÷Êý¸öÊý:>(1/2)\n");
 		scanf("%d", &in);
 		if (2 == in)
 		{
-			printf("è¯·è¾“å…¥ä¸¤ä¸ªæ“ä½œæ•°\n");
+			printf("ÇëÊäÈëÁ½¸ö²Ù×÷Êý\n");
 			scanf("%lf%lf", &x, &y);
 			getchar();
-			printf("è¯·è¾“å…¥è¿ç®—ç¬¦\n");
+			printf("ÇëÊäÈëÔËËã·û\n");
 			scanf("%c", &ch);
 			switch (ch)
 			{
@@ -148,11 +153,11 @@ int main ()
 				result = Sur(x, y);
 				break;
 			default:
-				printf("è¿ç®—ç¬¦è¾“å…¥é”™è¯¯ï¼");
+				printf("ÔËËã·ûÊäÈë´íÎó£¡");
 				break;
 			}
-			SingleResultmenu(x, ch, result);
-			printf("æ˜¯å¦ç»§ç»­ï¼š>ï¼ˆ1/0ï¼‰");
+			DdobleResultmenu(x, ch,y, result);
+			printf("ÊÇ·ñ¼ÌÐø£º>£¨1/0£©");
 			scanf("%d", &i);
 			if (i)
 			{
@@ -162,10 +167,10 @@ int main ()
 		}
 		else
 		{
-			printf("è¯·è¾“å…¥ä¸€ä¸ªæ“ä½œæ•°\n");
+			printf("ÇëÊäÈëÒ»¸ö²Ù×÷Êý\n");
 			scanf("%lf", &x);
 			getchar();
-			printf("è¯·è¾“å…¥è¿ç®—ç¬¦\n");
+			printf("ÇëÊäÈëÔËËã·û\n");
 			scanf("%c", &ch);
 			switch (ch)
 			{
@@ -175,15 +180,15 @@ int main ()
 			case '2':
 				result = 1 / x;
 				break;
-			case 'âˆš':
+			case '¡Ì':
 				result = sqrt(x);
 				break;
 			default:
-				printf("è¿ç®—ç¬¦è¾“å…¥é”™è¯¯ï¼");
+				printf("ÔËËã·ûÊäÈë´íÎó£¡");
 				break;
 			}
 				SingleResultmenu(x, ch, result);
-				printf("æ˜¯å¦ç»§ç»­ï¼š>ï¼ˆ1/0ï¼‰");
+				printf("ÊÇ·ñ¼ÌÐø£º>£¨1/0£©");
 				scanf("%d", &i);
 				if (i)
 				{
@@ -191,7 +196,6 @@ int main ()
 					Initmenu();
 				}
 		}
-		
 	}
 	return 0;
 }
