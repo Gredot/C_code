@@ -16,5 +16,5 @@ int main()
         ans += s;//ans加上i的阶乘五的倍数 
     }
     cout << ans << endl;//输出 
-    return 0;
+    return 0; 
 }
