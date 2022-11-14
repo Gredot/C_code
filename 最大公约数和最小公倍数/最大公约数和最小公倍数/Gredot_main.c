@@ -29,7 +29,7 @@ int main ()
 	printf("请输入两个非负整数\n");
 	scanf("%d%d", &m, &n);
 	gcd = get_gcd(m,n);
-	lcm = m * n / gcd;
+	lcm = m * n / gcd; 
 	printf("%d和%d的最大公约数为%d,\n  最小公倍数为%d", m, n, gcd, lcm);
 	return 0;
 }
