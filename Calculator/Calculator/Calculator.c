@@ -29,7 +29,7 @@ void Initmenu(void)
 	printf("                                                  \n");
 	printf("                                                  \n");
 }
-
+  
 void DdobleResultmenu(double x,char ch,double y,double result )
 {
 	printf("                                                  \n");
