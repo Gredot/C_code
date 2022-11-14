@@ -23,7 +23,7 @@ void selection_sort(int a[], int len)
 		}
 	}
 }
-
+  
 int main ()
 {
 	int arr[10];    
