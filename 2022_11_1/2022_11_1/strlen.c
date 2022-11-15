@@ -14,4 +14,4 @@
 //	char ch[] = "Hello Gredot!";
 //	printf("%d", my_strlen(ch));
 //	return 0;
-//}
+//} 
