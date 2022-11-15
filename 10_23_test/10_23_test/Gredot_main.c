@@ -19,7 +19,7 @@ int main() {
                 printf("Ordinary triangle!\n");
         }
         else
-            printf("Not a triangle!\n");
+            printf("Not a triangle!\n"); 
     }
     return 0;
 }
