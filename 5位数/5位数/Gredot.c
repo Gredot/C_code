@@ -23,4 +23,4 @@ int main ()
 	else if(e)
 		printf("%d为一位数,逆序打印结果为本身：%d",n, e);
 	return 0;
-}
+}  
