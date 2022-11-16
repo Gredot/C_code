@@ -20,7 +20,7 @@ int main ()
 			match[i] = match[i % 10] + match[i / 10];
 		}
 		else if (i >= 100 && i < 10000)
-		{
+		{ 
 			match[i] = match[i % 10] + match[i / 10 % 10] + match[i / 1000];
 		}
 	}
