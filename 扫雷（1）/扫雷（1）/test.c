@@ -50,7 +50,7 @@ void test()
 			break;
 		}
 	} while (input);
-}
+}  
 
 int main()
 {
