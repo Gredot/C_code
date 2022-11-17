@@ -40,7 +40,7 @@ void test()
 		switch (input)
 		{
 		case 1:
-			game();
+			game();  
 			break;
 		case 0:
 			printf("ÍË³öÓÎÏ·\n");
