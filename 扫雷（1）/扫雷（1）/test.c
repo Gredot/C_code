@@ -30,7 +30,7 @@ void game()
 
 void test()
 {
-	srand((unsigned int)time(NULL));
+	srand((unsigned int)time(NULL));   
 	int input = 0;
 	do
 	{
