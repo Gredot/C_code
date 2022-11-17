@@ -34,7 +34,7 @@ void DisplayBoard(char board[ROWS][COLS], int row, int col)
 			printf("%c ", board[i][j]);
 		}
 		printf("\n");
-	}
+	} 
 	printf("---------É¨À×----------\n");
 }
 
