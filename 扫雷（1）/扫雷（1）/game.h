@@ -23,4 +23,4 @@ void DisplayBoard(char board[ROWS][COLS], int row, int col);
 void SetMine(char mine[ROWS][COLS], int row, int col);
 
 //ÅÅ²éÀ×  
-void FindMine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col);  
+void FindMine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col);    
