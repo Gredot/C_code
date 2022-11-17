@@ -22,4 +22,4 @@ void player_move(char board[ROW][COL], int row, int col);
 void computer_move(char board[ROW][COL], int row, int col);
 
 //ÅĞ¶ÏÓÎÏ·ÊÇ·ñ½áÊø
-char is_win(char board[ROW][COL], int row, int col);
+char is_win(char board[ROW][COL], int row, int col); 
