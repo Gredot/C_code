@@ -15,7 +15,7 @@ int main()
 		menu();
 		printf("ÇëÑ¡Ôñ£º>\n");
 		int in;
-		scanf("%d", &in);
+		scanf("%d", &in);  
 		do {
 			switch (in) {
 			case 1:
