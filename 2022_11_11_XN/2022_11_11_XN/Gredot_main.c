@@ -14,4 +14,4 @@ int main()
 	int ret = XN(3, 3);
 	printf("%d", ret);
 	return 0;
-}     
+}       
