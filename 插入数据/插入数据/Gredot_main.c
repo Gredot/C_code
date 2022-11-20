@@ -13,7 +13,7 @@ int main()
     }
     printf("输入要插入的数据\n");
     scanf("%d", &c);//输入要插入的数字
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++) 
     {
         if (a[i] > c)//数列是升序排，找到比x大的那么这里的i位置就是x插入的位置
         {
