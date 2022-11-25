@@ -13,7 +13,7 @@
 //	{
 //		distance = 100;
 //		high = high / 2;
-//	}
+//	}  
 //	else
 //	{
 //		result = pow(2,count);
