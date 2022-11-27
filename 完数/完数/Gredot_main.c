@@ -13,7 +13,7 @@ int main()
 				sum += i; // 所有因子求和
 			}
 		}
-		if (sum == n)   //因子的和等于该数
+		if (sum == n)   //因子的和等于该数  
 			printf("%d 是完数 ", n);
 	}
 	return 0;
