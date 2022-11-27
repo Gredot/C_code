@@ -17,4 +17,4 @@ int main()
     else
         printf("%d 不是回文数。", c);
     return 0;
-}
+}  
