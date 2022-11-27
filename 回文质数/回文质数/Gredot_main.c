@@ -16,7 +16,7 @@ int is_prime(int x)
 		for (int i = 2; i < x; i++)
 		{
 			if (0 == x % i)
-				flag++;
+				flag++;  
 			//不能在循环中直接下结论
 		}
 		if (0 == flag)
