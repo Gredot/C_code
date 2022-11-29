@@ -8,7 +8,7 @@ int main()
     int arr2[100] = { 0 };
     // ‰»Î
     scanf("%d %d", &n, &m);
-    int i = 0;
+    int i =0;
     for (i = 0; i < n; i++)
     {
         scanf("%d", &arr1[i]);
