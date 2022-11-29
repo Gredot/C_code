@@ -12,9 +12,9 @@ int main()
     for (i = 0; i < n; i++)
     {
         scanf("%d", &arr1[i]);
-    }
+    }  
     for (i = 0; i < m; i++)
-    {
+    {   
         scanf("%d", &arr2[i]);
     }  
     //´¦Àí
