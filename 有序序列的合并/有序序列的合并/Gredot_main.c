@@ -31,7 +31,7 @@ int main()
         {
             printf("%d ", arr2[j]);
             j++;
-        }
+        }          
     }
     if (i == n)
     {
