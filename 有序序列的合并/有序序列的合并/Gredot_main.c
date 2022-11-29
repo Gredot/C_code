@@ -21,7 +21,7 @@ int main()
     int j = 0;
     i = 0;
     while (i < n && j < m)
-    {
+    {  
         if (arr1[i] < arr2[j])
         {
             printf("%d ", arr1[i]);
