@@ -14,7 +14,7 @@
 #define SPACE 32 //空格键
 #define ESC 27 //Esc键
 
-struct Face
+struct Face   
 {
     int data[ROW][COL + 10]; //用于标记指定位置是否有方块（1为有，0为无）
     int color[ROW][COL + 10]; //用于记录指定位置的方块颜色编码
