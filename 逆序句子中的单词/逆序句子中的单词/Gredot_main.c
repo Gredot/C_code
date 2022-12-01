@@ -19,7 +19,7 @@ int main()
 	char* end = temp;
 	while (1)
 	{
-		while (*end != ' ' && *end != '\0')
+		while (*end != ' ' && *end != '\0')  
 		{
 			end++;  
 		}
