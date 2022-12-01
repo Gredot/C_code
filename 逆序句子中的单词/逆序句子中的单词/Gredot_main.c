@@ -21,7 +21,7 @@ int main()
 	{
 		while (*end != ' ' && *end != '\0')
 		{
-			end++;
+			end++;  
 		}
 		reverse(start, end - 1);
 		start = end + 1;
