@@ -11,13 +11,13 @@ void reverse(char* left, char* right)
 	}
 }
 int main()
-{
+{ 
 	char ch[100];
 	gets(ch);
 	char* temp = ch;
 	char* start = temp;
 	char* end = temp;
-	while (1)
+	while (1)  
 	{
 		while (*end != ' ' && *end != '\0')  
 		{
