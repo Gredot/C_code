@@ -9,7 +9,7 @@ int main ()
 	int ans = 0;
 	double Sn = 0;
 	while (1)
-	{
+	{  
 		Sn += 1.0 / i;
 		if (Sn > k)
 			break;
