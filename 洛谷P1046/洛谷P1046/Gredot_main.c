@@ -7,7 +7,7 @@ int main ()
 	for (int i = 0; i < 10; i++)
 		scanf("%d",&F_high[i]);
 	int Max_high = 0;
-	scanf("%d",&Max_high);
+	scanf("%d",&Max_high);  
 	
 	int cnt = 0;//¼ÆÊýÆ÷
 	for (int i = 0; i < 10; i++)
